@@ -229,4 +229,20 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
+
+    .card-hover {
+    transition: all 0.3s ease;
+  }
+
+  .card-hover:hover {
+    transform: translateY(-6px);
+  }
+
+  .card-hover:hover.border-user\/30 {
+    box-shadow: 0 20px 40px -10px hsl(var(--user) / 0.35);
+  }
+
+  .card-hover:hover.border-instructor\/30 {
+    box-shadow: 0 20px 40px -10px hsl(var(--instructor) / 0.35);
+  }
 }
