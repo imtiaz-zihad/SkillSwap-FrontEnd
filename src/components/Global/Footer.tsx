@@ -23,7 +23,7 @@ const footerLinks = {
 
 export function Footer() {
   return (
-    <footer className="bg-card border-t border-border">
+    <footer className="bg-card border-t border-border px-5">
       <div className="container mx-auto px-4 py-12">
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mb-8">
           {/* Brand */}
@@ -35,7 +35,8 @@ export function Footer() {
               <span className="font-bold text-xl text-gradient">SkillSwap</span>
             </Link>
             <p className="text-sm text-muted-foreground mb-4">
-              Connect with experts, solve problems, and share knowledge through live video calls.
+              Connect with experts, solve problems, and share knowledge through
+              live video calls.
             </p>
             <div className="flex gap-3">
               <a
@@ -117,7 +118,15 @@ export function Footer() {
             © {new Date().getFullYear()} SkillSwap. All rights reserved.
           </p>
           <p className="text-sm text-muted-foreground">
-            Made with ❤️ for lifelong learners
+            Made By{" "}
+            <Link
+              href="https://www.linkedin.com/in/imtiaz-hossen"
+              target="_blank"
+              className="font-medium text-primary hover:underline"
+            >
+              Imtiaz
+            </Link>
+            , for lifelong learners ❤️
           </p>
         </div>
       </div>

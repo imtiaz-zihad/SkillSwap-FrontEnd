@@ -9,9 +9,9 @@ const Hero = () =>{
         <section className="relative min-h-[90vh] flex items-center overflow-hidden">
       {/* Background decoration */}
       <div className="absolute inset-0 -z-10">
-        <div className="absolute top-0 right-0 w-[600px] h-[600px] bg-primary/10 rounded-full blur-3xl" />
-        <div className="absolute bottom-0 left-0 w-[400px] h-[400px] bg-coin/10 rounded-full blur-3xl" />
-        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] bg-gradient-radial from-primary/5 to-transparent rounded-full" />
+        <div className="absolute top-0 right-0 w-150 h-150 bg-primary/10 rounded-full blur-3xl" />
+        <div className="absolute bottom-0 left-0 w-100 h-100 bg-coin/10 rounded-full blur-3xl" />
+        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-200 h-200 bg-gradient-radial from-primary/5 to-transparent rounded-full" />
       </div>
 
       <div className="container mx-auto px-4 pt-20">
